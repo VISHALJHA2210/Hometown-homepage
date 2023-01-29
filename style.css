@@ -1,0 +1,128 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+    margin:0px;
+    text-align:center;
+}
+
+.hero{
+    color:white;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    padding:50px;
+    background-image:url("https://upload.wikimedia.org/wikipedia/commons/9/9c/Ruins_of_Rajnagar_Madhubani_district.jpg");
+    background-size: cover;
+
+}
+
+.welcome{
+    margin:10px;
+    padding:2px 5px;
+    background:#F49B79;
+    border-radius:4px;
+    text-shadow:0px 0px 2px black;
+    box-shadow:0px 0px 2px black;
+    margin-bottom:0px;
+}
+
+.welcome:hover{
+    box-shadow:0px 0px 5px black;
+}
+
+
+.facts{
+    padding:15px;
+    margin:0px;
+    background:#ddb5a5;
+}
+
+.fax{
+    padding:10px;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.img{
+    border-radius: 100px;
+    width:100px;
+}
+
+.img:hover{
+    width:120px;
+    box-shadow:0px 0px 2px black;
+}
+
+#fact1, #fact2, #fact3{
+    width:150px;
+    margin:5px;
+}
+
+.Guide{
+    padding-top:15px;
+    margin:0px;
+}
+
+.intro{
+    width:200px;
+    font-size:15px;
+    padding-top:15px;
+    padding-left:15px;
+}
+
+.intro:hover{
+    text-shadow:0px 0px 2px white;
+}
+
+.huh{
+    display:flex;
+    justify-content: center;
+    border:1px solid purple;
+    border-radius:5px;
+    background:lightblue;
+    width:400px;
+    height:180px;
+    margin:20px auto;
+    padding:20px 0;
+    border-bottom:10px solid purple;
+}
+
+.me{
+    border:1px solid purple;
+    border-radius:5px;
+
+}
+
+.huh:hover{
+    box-shadow:0px 0px 5px black;
+}
+
+.bottom{
+    margin:0px;
+    display:flex;
+    flex-direction: column;
+    padding:15px;
+    color:white;
+    background:rgb(2, 0, 107);
+}
+
+a{
+    color:white;
+}
+
+.links{
+    margin:2px;
+}
+
+.f{
+    margin-bottom:0px;
+}
+
+.email{
+    margin-bottom:20px;
+}
